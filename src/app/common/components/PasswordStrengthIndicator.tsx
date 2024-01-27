@@ -32,8 +32,8 @@ const PasswordStrengthIndicator = ({
   };
 
   return (
-    <div className="text-lg font-medium flex justify-between items-center">
-      <span className="text-green-light flex items-center gap-2">
+    <div className="text-base md:text-lg font-medium flex justify-between items-center">
+      <span className="text-green-light flex items-center gap-1">
         <WeakPassword /> {strength} password
       </span>
       <button

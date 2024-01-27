@@ -80,15 +80,15 @@ const PasswordGenerator = () => {
     <main
       className={`min-h-screen w-full p-5 md:p-10 flex justify-center items-center ${bgColor}`}
     >
-      <section className="px-0 md:px-10 text-left w-full h-full md:grid inline-grid gap-10">
+      <section className="px-0 md:px-10 text-left w-full h-full md:grid flex flex-col gap-10">
         <h1 className="text-3xl text-green-light font-bold">
           Generate passwords with our random password generator.
         </h1>
-        <div className="border-b-4 border-white w-full text-3xl text-green-light relative">
-          <p className="font-medium">{generatedPassword}</p>
+        <div className="border-b-4 border-white w-full text-3xl text-green-light relative flex justify-between items-center gap-2">
+          <p className="font-medium overflow-auto break-words">{generatedPassword}</p>
           <button
             type="button"
-            className="absolute right-0 top-0"
+            className=""
             onClick={generatePassword}
           >
             <ReloadIcon />
