@@ -45,7 +45,7 @@ const PasswordLengthSlider: React.FC<SliderProps> = ({ length, setLength }) => {
         [&::-webkit-slider-runnable-track]:h-2
         [&::-webkit-slider-runnable-track]:bg-gray-100
         [&::-webkit-slider-runnable-track]:rounded-full
-        [&::-webkit-slider-runnable-track]:dark:bg-green-dark
+        [&::-webkit-slider-runnable-track]:dark:bg-white
 
         [&::-moz-range-track]:w-full
         [&::-moz-range-track]:h-2
